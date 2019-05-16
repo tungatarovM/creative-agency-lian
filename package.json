@@ -4,6 +4,7 @@
   "description": "Сайт дизайн агентства \"Lian\".",
   "main": "index.js",
   "scripts": {
+    "build": "node-sass src/sass/main.scss src/css/style.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
