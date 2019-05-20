@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $base-font-size;
+  font-family: 'Roboto', sans-serif;
+  max-width: 1605px;
+}
+
+.wrapper {
+  width: 75%;
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-font-color;
+}
+
+li {
+  list-style-type: none;
+}
+
+

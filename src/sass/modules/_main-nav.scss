@@ -1,0 +1,16 @@
+.main-nav {
+  display: flex;
+
+  font-size: $main-nav-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &__item {
+    margin-right: 30px;
+  }
+}
+
+.search {
+  font-size: 14px;
+  color: $secondary-font-color;
+}

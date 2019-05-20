@@ -1,0 +1,13 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: $primary-bg-color;
+  height: 90px;
+
+}
+
+.main-logo {
+  height: 35px;
+}
