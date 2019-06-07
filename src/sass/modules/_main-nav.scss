@@ -1,16 +1,51 @@
 .main-nav {
   display: flex;
-
-  font-size: $main-nav-font-size;
-  font-weight: 700;
   text-transform: uppercase;
+  font-weight: 700;
 
   &__item {
-    margin-right: 30px;
+    margin-right: 8px;
   }
 }
 
 .search {
   font-size: 14px;
   color: $secondary-font-color;
+  cursor: pointer;
+  margin-right: 0px;
+}
+
+@media only screen and (min-width: 480px) {
+  .main-nav {
+    letter-spacing: 1.05px;
+
+    &__item {
+      margin-right: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .main-nav {
+
+    &__item {
+      margin-right: 40px;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .main-nav {
+    padding-top: 5px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-nav {
+    &__item {
+      margin-right: 45px;
+    }
+  }
 }

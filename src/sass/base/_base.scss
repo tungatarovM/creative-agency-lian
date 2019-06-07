@@ -13,11 +13,12 @@ html {
 body {
   font-size: $base-font-size;
   font-family: 'Roboto', sans-serif;
-  max-width: 1605px;
+  background-color: $primary-bg-color;
+  color: $secondary-font-color;
 }
 
 .wrapper {
-  width: 75%;
+  width: 100%;
   max-width: 1140px;
   margin: 0 auto;
 
@@ -32,4 +33,9 @@ li {
   list-style-type: none;
 }
 
-
+@media only screen and (min-width: 480px) {
+  .wrapper {
+    width: 90%;
+    
+  }
+}
